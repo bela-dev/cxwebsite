@@ -1,0 +1,64 @@
+@media (max-width: 1000px) {
+
+    header .burger {
+        float: right;
+        cursor: pointer;
+        height: 30px;
+        padding-block: 20px;
+        transition: padding .3s;
+        display: block;
+    }
+
+    header .burger:hover {
+        padding-block: 18px;
+    }
+
+    header .burger:hover .line {
+        margin-block: 8px;
+    }
+    
+    header .burger .line {
+        background-color: black;
+        height: 2px;
+        width: 25px;
+        margin-block: 7px;
+        transition: margin .3s;
+    }
+
+    header ul {
+        position: fixed;
+        width: 25vw;
+        right: calc(-1 * 30vw - 100px);
+        top: 0;
+        background-color: var(--mid-grey);
+        color: white;
+        height: 100vh;
+        padding-block: 60px;
+        padding-inline: 50px;
+        transition: right .5s ease;
+    }
+
+    header ul .close-icon {
+        display: block;
+        fill: white;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: margin .2s;
+        float: right;
+        margin-bottom: -50px;
+    }
+
+    header ul .close-icon:hover {
+        margin-left: 12px;
+    }
+
+    header.active ul {
+        right: 0;
+    }
+    
+    header ul li {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+}

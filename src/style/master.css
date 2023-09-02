@@ -1,0 +1,119 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.button-1 {
+    border-radius: 30px;
+    padding: 6px;
+    padding-inline: 40px;
+    border: 2px solid var(--white);
+    color: var(--white);
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s;
+    transition-delay: .03s;
+}
+
+.button-1 a {
+    transition: all .2s;
+}
+
+.button-1:hover a {
+    letter-spacing: 1px;
+}
+
+.button-1:hover {
+    padding-inline: 45px;
+}
+
+h1 {
+    font-size: 29px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/** Box **/
+.box-space {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.box p.inner-box, .box .inner-box {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.box h2 {
+    font-size: 20px;
+    line-height: 53px;
+    font-weight: 500;
+}
+
+.box h3 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+    margin-block: 7px;
+}
+
+.box .inner-box p {
+    font-size: 15.5px;
+    margin: 20px;
+}
+
+.box .inner-box .icons {
+    padding-inline: 65px;
+    margin-top: 40px;
+}
+
+.icons {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons .icon {
+    cursor: pointer;
+}
+
+.icons .icon svg {
+    width: 30px;
+    transition: transform .3s ease;
+}
+
+.icons .icon:hover svg {
+    transform: rotateZ(12.5deg);
+}
+
+.box {
+    overflow: hidden;
+}
+
+.box .inner-box:not(p) {
+    width: calc(100% - 34px);
+    padding: 15px;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wrapper section {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 120px;
+}
+
+.wrapper h1 {
+    line-height: 100px;
+}

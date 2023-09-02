@@ -1,0 +1,59 @@
+header {
+    background-color: var(--white);
+    padding: 30px;
+    padding-inline: 100px;
+    padding-top: 50px;
+    position: fixed;
+    width: calc(100vw - 200px);
+    transition: all .5s ease;
+}
+
+header ul .close-icon {
+    display: none;
+}
+
+header .burger {
+    display: none;
+}
+
+.header-placeholder {
+    height: 150px;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo svg {
+    height: 70px;
+    float: left;
+    transition: transform .4s ease;
+}
+
+header .logo span {
+    line-height: 70px;
+    font-size: 23px;
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+header ul {
+    float: right;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    cursor: pointer;
+    margin-inline: 10px;
+    line-height: 30px;
+    margin-block: 20px;
+    letter-spacing: 0;
+    transition: all .3s ease;
+    text-align: center;
+    width: 110px;
+}
+
+header ul li:hover {
+    letter-spacing: 1px;
+}

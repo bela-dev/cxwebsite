@@ -1,0 +1,8 @@
+@media (max-width: 1150px) {
+    .box-space.three {
+        display: block;
+    }
+    .box-space.three .box {
+        width: 50%;
+    }
+}

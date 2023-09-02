@@ -1,0 +1,50 @@
+.loader {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--white);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s ease;
+}
+
+.loader.out {
+    opacity: 0;
+}
+
+.loader.out .logo {
+    transform: scale(1.5);
+}
+
+.loader .logo {
+    animation: loadLogo 1s ease;
+    transition: transform .4s ease;
+}
+
+.loader svg {
+    animation: rotateLogo 1.5s ease infinite;
+}
+
+@keyframes loadLogo {
+    from {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateLogo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

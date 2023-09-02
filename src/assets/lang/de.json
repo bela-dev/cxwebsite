@@ -1,0 +1,18 @@
+{
+    "passx": {
+        "about": {
+            "title": "Das Ist PassX"
+        },
+        "what": {
+            "ui": "Ein erfrischends User Interface",
+            "enc": "Ende-Zu-Ende verschlüsselt",
+            "sync": "Auf all deinen Geräten verfügbar und Echtzeit-synchronisiert"
+        },
+        "dev": {
+            "title": "Für Nutzer und für Entwickler optimiert"
+        },
+        "test": {
+            "title": "Teste PassX jetzt"
+        }
+    }
+}

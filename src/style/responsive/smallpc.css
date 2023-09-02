@@ -1,0 +1,9 @@
+@media (max-width: 1550px) {
+    .wrapper section {
+        width: 80%;
+        margin-inline: 10%;
+    }
+    footer {
+        padding-inline: 3%;
+    }
+}
