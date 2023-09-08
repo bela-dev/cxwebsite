@@ -9,13 +9,11 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import "../style/header.css";
 import "../style/responsive/headerburger.css";
 
-import { isDarkMode } from "./darkmodeCheck";
-
-import { useNavigate } from "react-router-dom";
+function navigate(href) {
+   window.open(href, "_self");
+}
 
 function Header() {
-
-   const navigate = useNavigate();
 
    const [mobileActive, setMobileActive] = useState(false);
    
@@ -85,8 +83,8 @@ function Header() {
             </div>
             <li onClick={() => {navigate("/home");}}>Home</li>
             <li onClick={() => {navigate("/passx");}}>PassX</li>
-            <li>Limeboard</li>
-            <li>Contact</li>
+            <li onClick={() => {navigate("/limeboard")}}>Limeboard</li>
+            <li onClick={() => {navigate("/contact")}}>Contact</li>
          </ul>
     </header>;
 }

@@ -51,6 +51,11 @@ p {
     padding: 30px;
 }
 
+.box h2 svg {
+    height: 23px;
+    margin-block: -3px;
+}
+
 .box h2 {
     font-size: 20px;
     line-height: 53px;
@@ -116,4 +121,8 @@ p {
 
 .wrapper h1 {
     line-height: 100px;
+}
+
+section.text button {
+    margin-top: 30px;
 }

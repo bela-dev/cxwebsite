@@ -14,5 +14,37 @@
         "test": {
             "title": "Teste PassX jetzt"
         }
+    },
+    "limeboard": {
+        "about": {
+            "title": "Das Ist Limeboard"
+        },
+        "what": {
+            "ui": "Ein unglaubliches User Interface",
+            "enc": "Ende-Zu-Ende verschlüsselt",
+            "sync": "Auf all deinen Geräten verfügbar und Echtzeit-synchronisiert"
+        },
+        "hardware": {
+            "title": "Hardware-Lösungen für maximale Flexibiltät"
+        },
+        "test": {
+            "title": "Teste Limeboard jetzt"
+        }
+    },
+    "contact": {
+        "options": {
+            "title": "Kontaktieren Sie uns",
+            "mail": "Email schreiben",
+            "instagram": "Zu Instagram",
+            "github": "Zu GitHub"
+        },
+        "bug": {
+            "title": "Einen Fehler melden",
+            "btn": "Zum Bug Report Formular"
+        },
+        "join": {
+            "title": "Bei CuodeX mitarbeiten",
+            "btn": "Per Email bewerben"
+        }
     }
 }

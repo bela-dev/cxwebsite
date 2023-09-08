@@ -6,6 +6,7 @@ header {
     position: fixed;
     width: calc(100vw - 200px);
     transition: all .5s ease;
+    z-index: 4;
 }
 
 header ul .close-icon {

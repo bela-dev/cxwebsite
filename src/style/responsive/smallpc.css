@@ -4,6 +4,6 @@
         margin-inline: 10%;
     }
     footer {
-        padding-inline: 3%;
+        padding-inline: 3% !important;
     }
 }

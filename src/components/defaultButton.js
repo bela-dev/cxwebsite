@@ -6,7 +6,7 @@ import "../style/defaultButton.css";
 
 function DefaultButton(props) {
     return <button className="blue-btn" onClick={props.href ? () => {
-        window.open(props.href, "_blank");
+        window.open(props.href, (props.sametab ? "_self" : "_blank"));
     } : () => {}}>
         {props.children}
         {props.link ? <ArrowTilt/> : <></>}
