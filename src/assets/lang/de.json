@@ -1,4 +1,10 @@
 {
+    "home": {
+        "about": {
+            "title": "Über uns",
+            "text": "Hallo! Wir sind ein kleines Team aus Entwicklern und Designern und zusammen versuchen wir innovative und sichere Software bereitzustellen. Dabei steht bei uns nicht der ökonomische Gewinn im Vordergrund, im Gegenteil: wir stellen unsere Software komplett kostenfrei zur Verfügung und veröffentlichen fast alle Teile des Quellcodes. So können wir uns ganz auf die Qualität der Produkte konzentrieren und hoffentlich einen allgemeinen Beitrag zur Entwicklung innovativer Software leisten. Besonderen Wert legen wir dabei auf Datensicherheit, Datensparsamkeit und Anonymität, was uns dadurch ermöglicht wir, das wir den Fokus eben nicht auf Gewinnmaximierung legen. Auch versuchen wir mit unserer Software eine Basis für andere Entwickler aufzubauen und möchten jeden herzlich dazu einladen unsere Software zu nutzen und weiter zu entwickeln"
+        }
+    },
     "passx": {
         "about": {
             "title": "Das Ist PassX"
@@ -45,6 +51,21 @@
         "join": {
             "title": "Bei CuodeX mitarbeiten",
             "btn": "Per Email bewerben"
+        }
+    },
+    "report-bug": {
+        "title": "Einen Fehler melden",
+        "label": {
+            "title": "Titel",
+            "app": "Wähle aus in welcher Anwendung du den Bug gefunden hast",
+            "email": "Email eingeben",
+            "desc": "Beschreibung eingeben"
+        },
+        "placeholder": {
+            "title": "Titel eingeben",
+            "app": "Andere",
+            "email": "Email für weitere Fragen",
+            "desc": "Beschreibe den Fehlder den du gefunden hast"
         }
     }
 }

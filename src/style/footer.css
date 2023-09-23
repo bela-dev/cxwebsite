@@ -8,11 +8,11 @@ footer {
 }
 
 footer .row {
-    width: 20%;
+    width: 23%;
 }
 
 footer .row.last {
-    width: 40%;
+    width: 31%;
     text-align: right;
 }
 
@@ -22,9 +22,16 @@ footer .row h4 {
 }
 
 footer .row p {
-    line-height: 30px;
+    line-height: 15px;
     font-weight: 500;
+    margin-block: 7.5px;
     color: var(--light-grey);
+    cursor: pointer;
+}
+
+footer .row p a {
+    color: var(--light-grey);
+    text-decoration: none;
 }
 
 footer .row .icons {

@@ -6,6 +6,7 @@ import DefaultInput from "../../components/defaultInput";
 import "./reportBug.css";
 import DefaultButton from "../../components/defaultButton";
 import DefaultDropdown from "../../components/defaultDropdown";
+import { getLang } from "../../utils/languageUtils";
 
 function ReportBug() {
 
@@ -16,11 +17,11 @@ function ReportBug() {
 
     return <DefaultWrapper id="reportBug">
         <section id="report-bug-form">
-            <h1>Report a Bug</h1>
-            <DefaultInput placeholder="Enter Title" label="Title" onChange={setTitle}/>
-            <DefaultDropdown default={2} options={["Passx", "Website", "Other"]} onChange={setApp} label="Choose the Application in which you found the bug"/>
-            <DefaultInput placeholder="Enter Email" type="email" onChange={setEmail} label="Email for further questions"/>
-            <DefaultInput placeholder="Enter Description" textarea onChange={setDescription} label="Describe the bug you found"/>
+            <h1>{getLang("report-bug.title")}</h1>
+            <DefaultInput placeholder={getLang("report-bug.placeholder.title")} label={getLang("report-bug.label.title")} onChange={setTitle}/>
+            <DefaultDropdown default={2} options={["Passx", "Website", getLang("report-bug.placeholder.app")]} onChange={setApp} label={getLang("report-bug.label.app")}/>
+            <DefaultInput placeholder={getLang("report-bug.placeholder.email")} type="email" onChange={setEmail} label={getLang("report-bug.label.email")}/>
+            <DefaultInput placeholder={getLang("report-bug.placeholder.desc")} textarea onChange={setDescription} label={getLang("report-bug.label.desc")}/>
             <DefaultButton>Send</DefaultButton>
         </section>
     </DefaultWrapper>

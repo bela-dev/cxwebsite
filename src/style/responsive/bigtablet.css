@@ -1,8 +1,22 @@
 @media (max-width: 1150px) {
+
+    /** Box with three entries per row **/
     .box-space.three {
         display: block;
     }
     .box-space.three .box {
-        width: 50%;
+        width: 100%;
+    }
+    .box-space.three .box .inner-box {
+        height: 260px;
+    }
+    .box-space.three .box .inner-box img {
+        width: auto;
+        height: 260px;
+        float: left;
+    }
+    .box-space.three .box .inner-box h3, .box-space.three .box .inner-box p {
+        text-align: left;
+        margin-left: 370px;
     }
 }

@@ -9,6 +9,7 @@ import MailIcon from "../../assets/icons/mail";
 import InstagramIcon from "../../assets/icons/instagram";
 import GithubIcon from "../../assets/icons/github";
 import SubPage from "../../components/subPage";
+import { GITHUB_LINK, INSTAGRAM_LINK } from "../../assets/content/links";
 
 function Contact() {
     return <SubPage id="contact" homeImg={backgroundContact} title={<>
@@ -25,11 +26,11 @@ function Contact() {
                 </div>
                 <div className="box">
                     <h2><InstagramIcon/>@cuodex</h2>
-                    <DefaultButton link href="https://www.instagram.com/cuodex/">{getLang("contact.options.instagram")}</DefaultButton>
+                    <DefaultButton link href={INSTAGRAM_LINK}>{getLang("contact.options.instagram")}</DefaultButton>
                 </div>
                 <div className="box">
                     <h2><GithubIcon/>@cuodex</h2>
-                    <DefaultButton link href="https://github.com/CuodeX/">{getLang("contact.options.github")}</DefaultButton>
+                    <DefaultButton link href={GITHUB_LINK}>{getLang("contact.options.github")}</DefaultButton>
                 </div>
             </div>
         </section>

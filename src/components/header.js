@@ -89,4 +89,5 @@ function Header() {
     </header>;
 }
 
+export {navigate}
 export default Header;

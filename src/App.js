@@ -7,6 +7,7 @@ import "./style/master.css";
 
 import "./style/responsive/smallpc.css";
 import "./style/responsive/bigtablet.css";
+import "./style/responsive/medtablet.css";
 
 import Limeboard from "./pages/limeboard/limeboard";
 import Contact from "./pages/contact/contact";
