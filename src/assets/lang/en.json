@@ -1,6 +1,93 @@
 {
-    "philosophie": "af",
-    "philosophy": {
-        "title": "Our Philosophy"
+    "home": {
+        "title": "Home",
+        "about": {
+            "title": "About us",
+            "text": "We are a small team of passionate developers and designers. We work on innovative and creative software solutions and have made it our mission to develop safe and fair software. This includes that as a freelance developer team we don't rely on financial success, but instead focus on exploring new possibilities and personal growth. This allows us to focus entirely on our passion and quality products. All our projects are available for free use and we always aim our software to be used, thought about and developed by other developers. Thus, as part of our security concept, we also publish detailed documentation on projects as well as the entire source code. This is how we want to guarantee our basic values of transparency and data security."
+        },
+        "team": {
+            "bela": {
+                "job": "Developer",
+                "text": "Bela (17) Computer science student from Munich, works mainly as a frontend developer."
+            },
+            "malte": {
+                "job": "Developer",
+                "text": "Malte (18) from Lower Saxony, passionate backend developer and pentester at CuodeX"
+            },
+            "jorma": {
+                "job": "Designer",
+                "text": "Jorma (18) from Munich, ensures an innovative look for our projects."
+            }
+        },
+        "philosophy": {
+            "title": "Our Philosophy",
+            "safe": {
+                "title": "Safe",
+                "text": "We try to make our software as secure as possible through innovative encryption methods and data thriftiness. This is also possible because we are a free development team and do not depend on the sale of data."
+            },
+            "free": {
+                "title": "Free",
+                "text": "Everyone should be able to use our software! This was one of our main goals since the beginning of CuodeX and so all our software can be used for free. We also do without advertising or the like."
+            },
+            "opensource": {
+                "title": "Open-Source",
+                "text": "In order to make our software available as a basis for other developers, our entire source code is freely available. We invite every developer to develop our software further and make something of their own out of it!"
+            }
+        }
+    },
+    "passx": {
+        "title": "Passx",
+        "button": "Open Passx",
+        "about": {
+            "title": "This is Passx",
+            "text": "Passx is a free and, above all, secure password manager. With a simple look and many features, Passx offers the perfect place for your passwords that you can access from anywhere. The special thing about Passx is the encryption concept: Many applications with end-to-end encryption have the disadvantage that you have to transfer the encryption key before you can use the application on a new device. Passx generates this key based on the password chosen by the user, and this password is not stored in any form on our servers. This way we can ensure easy use from anywhere and still maximum security."
+        },
+        "what": {
+            "ui": "A refreshing user interface",
+            "enc": "End-to-End encryption",
+            "sync": "Available on all your devices and synchronized in real time"
+        },
+        "dev": {
+            "title": "Optimized for developers",
+            "text": "One of our concerns is to give other developers the possibility to use our software as a basis for their own project. Therefore we provide the source code of our projects as well as detailed documentation. You are welcome to contact us if you have any questions, missing resources, or the like. We are always looking for new developers in our team ;)"
+        },
+        "test": {
+            "title": "Try Passx now"
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "button": "Write a mail",
+        "options": {
+            "title": "Contact us",
+            "mail": "Write an email",
+            "instagram": "Open Instagram",
+            "github": "Open GitHub"
+        },
+        "bug": {
+            "title": "Report a bug",
+            "btn": "Open the bug report form",
+            "text": "No software is error-free. Unfortunately, our software isn't either and so it happens that despite extensive testing we probably overlooked bugs in our software. For this we need you! If you find a bug or something similar in our software, please use this form and describe the bug you found as detailed as possible. Afterwards we will contact you immediately and let you know if we could fix the bug. You are also welcome to use this form to share other suggestions for improvement regarding design, user experience, etc. with us and you might even get a little thank you ;)"
+        },
+        "join": {
+            "title": "Contribute to CuodeX",
+            "btn": "Apply via email",
+            "text": "You are a passionate software developer, designer, marketing expert or otherwise interested in technology? You want to work on free software projects in a small and familiar team? Then you are welcome to join us. To guarantee a smooth cooperation in our team we expect independence, reliability, team spirit, creativity and motivation to work on our projects. Of course, there are no obligations and you always have the opportunity to contribute your own ideas and projects and to benefit from our resources. If you are interested, please send your application via email to jobs@cuodex.net. Your application should include information about you and your previous experience as well as your motivation to work with us and references (if available). We are looking forward to meeting you!"
+        }
+    },
+    "report-bug": {
+        "title": "Report a bug",
+        "label": {
+            "title": "Title",
+            "app": "Select in which application you found the bug",
+            "email": "Enter email",
+            "desc": "Enter description"
+        },
+        "placeholder": {
+            "title": "Enter title",
+            "app": "Other",
+            "email": "Email for further questions",
+            "desc": "Briefly describe the bug you found "
+        }
     }
 }
