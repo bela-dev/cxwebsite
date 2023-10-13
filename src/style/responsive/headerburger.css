@@ -45,7 +45,11 @@
         cursor: pointer;
         transition: margin .2s;
         float: right;
-        margin-bottom: -50px;
+        padding: 5px;
+    }
+
+    header ul .close-icon:hover {
+        margin-right: -2px;
     }
 
     header ul .close-icon:hover {

@@ -5,7 +5,7 @@ import "../style/defaultInput.css";
 function DefaultInput(props) {
     var elProps = {
         placeholder: props.placeholder,
-        onChange: props.onChange,
+        onChange: (e) => {props.onChange(e.target.value)},
         type: props.type ? props.type : "text",
         className: "default-input"
     }

@@ -1,10 +1,11 @@
 header {
+    --padding-inline: 100px;
     background-color: var(--white);
     padding: 30px;
-    padding-inline: 100px;
+    padding-inline: var(--padding-inline) !important;
     padding-top: 50px;
     position: fixed;
-    width: calc(100vw - 200px);
+    width: calc(100vw - var(--padding-inline) * 2);
     transition: all .5s ease;
     z-index: 4;
 }

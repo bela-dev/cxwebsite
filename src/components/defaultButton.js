@@ -5,7 +5,7 @@ import ArrowTilt from "../assets/icons/arrow-tilt";
 import "../style/defaultButton.css";
 
 function DefaultButton(props) {
-    return <button className="blue-btn" onClick={props.href ? () => {
+    return <button className="blue-btn" onClick={props.onClick ? props.onClick : props.href ? () => {
         window.open(props.href, (props.sametab ? "_self" : "_blank"));
     } : () => {}}>
         {props.children}

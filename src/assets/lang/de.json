@@ -1,13 +1,46 @@
 {
     "home": {
+        "title": "Home",
         "about": {
             "title": "Über uns",
-            "text": "Hallo! Wir sind ein kleines Team aus Entwicklern und Designern und zusammen versuchen wir innovative und sichere Software bereitzustellen. Dabei steht bei uns nicht der ökonomische Gewinn im Vordergrund, im Gegenteil: wir stellen unsere Software komplett kostenfrei zur Verfügung und veröffentlichen fast alle Teile des Quellcodes. So können wir uns ganz auf die Qualität der Produkte konzentrieren und hoffentlich einen allgemeinen Beitrag zur Entwicklung innovativer Software leisten. Besonderen Wert legen wir dabei auf Datensicherheit, Datensparsamkeit und Anonymität, was uns dadurch ermöglicht wir, das wir den Fokus eben nicht auf Gewinnmaximierung legen. Auch versuchen wir mit unserer Software eine Basis für andere Entwickler aufzubauen und möchten jeden herzlich dazu einladen unsere Software zu nutzen und weiter zu entwickeln"
+            "text": "Wir sind ein kleines Team aus leidenschaftlichen Entwicklern und Designern. Wir arbeiten an innovativen und kreativen Software-Lösungen und haben es uns zur Aufgabe gemacht, sichere und faire Software zu entwickeln. Dazu gehört, dass wir als freies Entwicklerteam nicht auf finanziellen Erfolg angewiesen sind, sondern bei uns stattdessen das Erkunden neuer Möglichkeiten und das persönliche Wachstum im Fokus liegen. So können wir uns ganz auf unsere Leidenschaft und qualitative Produkte konzentrieren. Alle unsere Projekte stehen zur kostenfreien Nutzung zur Verfügung und wir richten unsere Software stets darauf aus, von anderen Entwicklern genutzt, weitergedacht und weiterentwickelt zu werden. So veröffentlichen wir, im Rahmen unseres Sicherheitskonzepts, auch sowohl ausführliche Dokumentationen zu Projekten als auch den gesamten Quellcode. So wollen wir unsere Grundwerte der Transparenz und Datensicherheit garantieren."
+        },
+        "team": {
+            "bela": {
+                "job": "Entwickler",
+                "text": "Bela (17) Informatik Student aus München, arbeitet hauptsächlich als Frontend-Entwickler."
+            },
+            "malte": {
+                "job": "Entwickler",
+                "text": "Malte (18) aus Niedersachsen, leidenschaftlicher Backend-Entwickler und Pentester bei CuodeX"
+            },
+            "jorma": {
+                "job": "Designer",
+                "text": "Jorma (18) aus München, sorgt für ein innovatives Aussehen unserer Projekte."
+            }
+        },
+        "philosophy": {
+            "title": "Unsere Philosophie",
+            "safe": {
+                "title": "Sicher",
+                "text": "Wir versuchen durch innovative Verschlüsselungsmethoden und Datensparsamkeit unsere Software so sicher wie nur möglich zu machen. Das ist uns vorallem auch dadurch möglich, dass wir als freies Entwicklerteam nicht auf den Verkauf von Daten angewiesen sind."
+            },
+            "free": {
+                "title": "Kostenlos",
+                "text": "Jeder soll unsere Software nutzen können! Das war seit Beginn von CuodeX eines unserer Hauptziele und so kann all unsere Software kostenlos verwendet werden. Wir verzichten dabei auch auf Werbung o.Ä."
+            },
+            "opensource": {
+                "title": "Open-Source",
+                "text": "Um unsere Software als Grundlage für andere Entwickler zur Verfügung zu stellen ist unser gesamter Quellcode frei verfügbar. Wir laden jeden Entwickler herzlich dazu ein unsere Software weiterzuentwickeln und etwas Eigenes daraus zu machen!"
+            }
         }
     },
     "passx": {
+        "title": "Passx",
+        "button": "Zu Passx",
         "about": {
-            "title": "Das Ist PassX"
+            "title": "Das Ist Passx",
+            "text": "Passx ist ein kostenloser und vor allem sicherer Passwort Manager. Mit einem simplen Aussehen und vielen Features bietet Passx den perfekten Platz für deine Passwörter auf den du von überall zugreifen kannst. Das Besonder an Passx ist das Verschlüsselungskonzept: Viele Anwendungen mit Ende-zu-Ende Verschlüsselung haben den Nachteil, dass zuerst der Verschlüsselungs-Schlüssel übertragen werden muss bevor man die Anwendung auf einem neuen Gerät verwenden kann. Passx generiert diesen Schlüssel anhand des Passworts das der Nutzer gewählt hat, wobei dieses Passwort in keiner Form auf unseren Servern gespeichert wird. Dadurch können wir eine problemlose Nutzung von überall und dennoch maximale Sicherheit gewährleisten."
         },
         "what": {
             "ui": "Ein erfrischends User Interface",
@@ -15,7 +48,8 @@
             "sync": "Auf all deinen Geräten verfügbar und Echtzeit-synchronisiert"
         },
         "dev": {
-            "title": "Für Nutzer und für Entwickler optimiert"
+            "title": "Für Entwickler optimiert",
+            "text": "Eines unserer Anliegen ist anderen Entwicklern die Möglichkeit zu geben unsere Software als Grundlage für ein Eigenes Projekt zu nutzen. Darum stellen wir den Quellcode unserer Projekte so wie ausführliche Dokumentationen zur Verfügung. Gerne kann man uns bei Fragen, fehlenden Resourcen, o.Ä. auch kontaktieren. Außerdem suchen wir immer nach neuen Entwicklern in unserem Team ;)"
         },
         "test": {
             "title": "Teste PassX jetzt"
@@ -38,6 +72,8 @@
         }
     },
     "contact": {
+        "title": "Kontakt",
+        "button": "Mail schreiben",
         "options": {
             "title": "Kontaktieren Sie uns",
             "mail": "Email schreiben",
@@ -46,11 +82,13 @@
         },
         "bug": {
             "title": "Einen Fehler melden",
-            "btn": "Zum Bug Report Formular"
+            "btn": "Zum Bug Report Formular",
+            "text": "Keine Software ist fehlerfrei. Auch unsere Software leider nicht und so kommt es, dass wir trotz ausgibigem Testen wahrscheinlich Bugs in unserer Software übersehen haben. Dafür brauchen wir dich! Wenn du einen Bug o.Ä. in Software von uns findest, nutze doch bitte dieses Formular und beschreibe den Bug den du gefunden hast so genau wie möglich. Anschließend werden wir umgehend mit dir in Kontakt treten und dir mitteilen wenn wir den Fehler beheben konnten. Gerne kannst du uns über dieses Formular auch andere Verbesserungsvorschläge bezüglich Design, User-Experience, o.Ä. mit uns teilen und erhältst dafür vielleicht sogar ein kleiens Dankeschön ;)"
         },
         "join": {
             "title": "Bei CuodeX mitarbeiten",
-            "btn": "Per Email bewerben"
+            "btn": "Per Email bewerben",
+            "text": "Du bist leidenschaftlicher Software-Entwickler, Designer, Marketing-Experte oder sonst Technikinteressiert? Du hast Lust in einem kleinen und familiären Team an freien Software-Projekten zu arbeiten? Dann bist du herzlich willkommen bei uns. Um eine reibungslose Zusammenarbeit in unserem Team zu garantieren erwarten wir Selbständigkeit, Zuverlässigkeit, Teamfähigkeit, Kreativität und Motivation an unseren Projekten zu mitzuarbeiten. Natürlich gibt es keine Verbindlichkeiten und du hast jederzeit die Möglichkeit eigene Ideen und Projekte einzubringen sowie von unseren Ressourcen zu profitieren. Bei Interesse sende bitte deine Bewerbung per Email an jobs@cuodex.net. Deine Bewerbung sollte neben Informationen zu dir und deiner bisherigen Erfahrungen auch deine Motivation bei uns mitzuarbeiten und Referenzen (soweit vorhanden) enthalten. Wir freuen uns auf dich!"
         }
     },
     "report-bug": {

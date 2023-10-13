@@ -6,4 +6,7 @@
     footer {
         padding-inline: 3% !important;
     }
+    .default-dropdown .dropdown {
+        width: 64% !important;
+    }
 }

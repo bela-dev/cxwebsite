@@ -50,7 +50,7 @@ function Limeboard() {
 
         <section id="test">
             <h1>{getLang("limeboard.test.title")}</h1>
-            <div className="box-space">
+            <div className="box-space three">
                 <div className="box">
                     <h2>PassX Web-Anwendung</h2>
                     <DefaultButton link href="https://passx.cuodex.net">Zu PassX</DefaultButton>

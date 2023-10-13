@@ -1,0 +1,6 @@
+@media (max-width: 630px) {
+    .box-space.three.img .box .inner-box:not(p) {
+        width: calc(100% - 34px);
+        height: auto;
+    }
+}

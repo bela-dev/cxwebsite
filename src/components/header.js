@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 import "../style/header.css";
 import "../style/responsive/headerburger.css";
+import { getLang } from "../utils/languageUtils";
 
 function navigate(href) {
    window.open(href, "_self");
@@ -70,7 +71,7 @@ function Header() {
     return <header ref={headerEl} id="header" className={mobileActive ? "active" : ""}>
          <div className="logo">
             <LogoIcon/>
-            <span>CuodeX</span>
+            <span>Cuodex</span>
          </div>
          <div className="burger" onClick={() => {setMobileActive(true);}}>
             <div className="line"/>
@@ -81,10 +82,9 @@ function Header() {
             <div className="close-icon" onClick={() => {setMobileActive(false)}}>
                <ChevronIcon/>
             </div>
-            <li onClick={() => {navigate("/home");}}>Home</li>
-            <li onClick={() => {navigate("/passx");}}>PassX</li>
-            <li onClick={() => {navigate("/limeboard")}}>Limeboard</li>
-            <li onClick={() => {navigate("/contact")}}>Contact</li>
+            <li onClick={() => {navigate("/home");}}>{getLang("home.title")}</li>
+            <li onClick={() => {navigate("/passx");}}>{getLang("passx.title")}</li>
+            <li onClick={() => {navigate("/contact")}}>{getLang("contact.title")}</li>
          </ul>
     </header>;
 }

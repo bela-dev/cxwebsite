@@ -13,12 +13,12 @@ import SubPage from "../../components/subPage";
 function PassX() {
     return <SubPage id="passx" homeImg={backgroundPassx} title={<>
         <h1>PassX</h1>
-        <button className="button-1"><a>Discover</a></button>
+        <button className="button-1" onClick={() => {window.open("https://passx.cuodex.net", "_blank");}}><a>{getLang("passx.button")}</a></button>
     </>}>
 
         <section id="about">
             <h1>{getLang("passx.about.title")}</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            <p>{getLang("passx.about.text")}</p>
         </section>
 
         <section id="what">
@@ -44,12 +44,12 @@ function PassX() {
 
         <section id="developer">
             <h1>{getLang("passx.dev.title")}</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            <p>{getLang("passx.dev.text")}</p>
         </section>
 
         <section id="test">
             <h1>{getLang("passx.test.title")}</h1>
-            <div className="box-space">
+            <div className="box-space three">
                 <div className="box">
                     <h2>PassX Web-Anwendung</h2>
                     <DefaultButton link href="https://passx.cuodex.net">Zu PassX</DefaultButton>

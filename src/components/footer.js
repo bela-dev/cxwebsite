@@ -3,10 +3,13 @@ import React from "react";
 import InstagramIcon from "../assets/icons/instagram";
 import MailIcon from "../assets/icons/mail";
 import TwitterIcon from "../assets/icons/twitter";
+import GithubIcon from "../assets/icons/github";
 
 import "../style/footer.css";
-import { INSTAGRAM_LINK } from "../assets/content/links";
+import { GITHUB_LINK, INSTAGRAM_LINK } from "../assets/content/links";
 import { navigate } from "./header";
+import Github2Icon from "../assets/icons/github2";
+import CodeTagIcon from "../assets/icons/codetag";
 
 function Footer() {
 
@@ -18,7 +21,6 @@ function Footer() {
         <div className="row">
             <h4>Projekte</h4>
             <p onClick={() => {navigate("/passx")}}>Passx</p>
-            <p onClick={() => {navigate("/limeboard")}}>Limeboard</p>
         </div>
         <div className="row">
             <h4>Rechtliches</h4>
@@ -30,8 +32,8 @@ function Footer() {
             <h4>cuodex.net 2023</h4>
             <div className="icons">
                 <div className="icon" onClick={() => {window.open(INSTAGRAM_LINK, "_blank")}}><InstagramIcon/></div>
-                <div className="icon" ><TwitterIcon/></div>
-                <div className="icon"><MailIcon/></div>
+                <div className="icon" onClick={() => {window.open(GITHUB_LINK, "_blank")}}><CodeTagIcon/></div>
+                <div className="icon" onClick={() => {window.open("mailto:info@cuodex.net", "_self")}}><MailIcon/></div>
             </div>
         </div>
     </footer>;

@@ -46,4 +46,6 @@ footer .row .icons .icon {
 
 footer .row .icons .icon svg {
     width: 26px;
+    height: 26px;
+    fill: var(--blue-grey);
 }

@@ -8,6 +8,9 @@
         width: 100%;
     }
     .box-space.three .box .inner-box {
+        height: auto;
+    }
+    .box-space.three.img .box .inner-box {
         height: 260px;
     }
     .box-space.three .box .inner-box img {
@@ -15,6 +18,7 @@
         height: 260px;
         float: left;
     }
+    
     .box-space.three .box .inner-box h3, .box-space.three .box .inner-box p {
         text-align: left;
         margin-left: 370px;

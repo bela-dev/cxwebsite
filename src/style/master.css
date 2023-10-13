@@ -26,10 +26,6 @@
     letter-spacing: 1px;
 }
 
-.button-1:hover {
-    padding-inline: 45px;
-}
-
 h1 {
     font-size: 29px;
 }
@@ -54,12 +50,25 @@ p {
 .box h2 svg {
     height: 23px;
     margin-block: -3px;
+    margin-right: 15px;
+}
+
+.box.bigicon h2 svg {
+    height: 28px;
+}
+
+.box.biggericon h2 svg {
+    height: 30px;
 }
 
 .box h2 {
     font-size: 20px;
     line-height: 53px;
     font-weight: 500;
+    line-height: 30px;
+    padding-block: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .box h3 {
@@ -92,6 +101,8 @@ p {
 
 .icons .icon svg {
     width: 30px;
+    height: 30px;
+    fill: var(--blue-grey);
     transition: transform .3s ease;
 }
 
@@ -110,7 +121,7 @@ p {
 
 .box img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 13px;
 }
 
 .wrapper section {
@@ -120,7 +131,8 @@ p {
 }
 
 .wrapper h1 {
-    line-height: 100px;
+    line-height: 50px;
+    padding-block: 50px;
 }
 
 section.text button {
