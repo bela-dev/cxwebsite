@@ -36,9 +36,53 @@ p {
 
 /** Box **/
 .box-space {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     gap: 40px;
+}
+
+.box-space.only-img {
+    grid-template-columns: 1fr 1fr;
+}
+
+.box-space.only-img .inner-box {
+    height: calc(300px + 34px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-space.only-img .inner-box .img-box {
+    
+    transition: margin .3s ease, width .3s ease, height .3s ease, padding .3s ease;
+}
+
+.box-space.only-img .box:hover .inner-box .img-box {
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    margin: -5px;
+}
+
+.box-space.only-img .box:hover .inner-box .img-box .img {
+    margin-top: calc(334px / 2 - 245px);
+}
+
+.box-space.only-img .inner-box .img-box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box-space.only-img .inner-box .img-box .img {
+    width: 550px;
+    height: 500px;
+    margin-top: calc(334px / 2 - 250px);
+    margin-left: calc(50% - 275px);
+    background-size: cover;
+    background-position: center center;
+    transition: .3s ease;
+    border-radius: 10px;
 }
 
 .box p.inner-box, .box .inner-box {
@@ -81,6 +125,7 @@ p {
 .box .inner-box p {
     font-size: 15.5px;
     margin: 20px;
+    height: 70px;
 }
 
 .box .inner-box .icons {
@@ -112,6 +157,7 @@ p {
 
 .box {
     overflow: hidden;
+    grid-area: 1;
 }
 
 .box .inner-box:not(p) {
@@ -122,6 +168,12 @@ p {
 .box img {
     width: 100%;
     border-radius: 13px;
+    transition: width .1s, margin .1s;
+}
+
+.box .inner-box:hover img.hover {
+    width: 101%;
+    margin: -.5%;
 }
 
 .wrapper section {

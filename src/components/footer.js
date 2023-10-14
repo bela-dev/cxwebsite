@@ -6,7 +6,7 @@ import TwitterIcon from "../assets/icons/twitter";
 import GithubIcon from "../assets/icons/github";
 
 import "../style/footer.css";
-import { GITHUB_LINK, INSTAGRAM_LINK } from "../assets/content/links";
+import { GITHUB_LINK, INSTAGRAM_LINK, PRIVACY_LINK, IMPRINT_LINK, TERMS_LINK } from "../assets/content/links";
 import { navigate } from "./header";
 import Github2Icon from "../assets/icons/github2";
 import CodeTagIcon from "../assets/icons/codetag";
@@ -24,9 +24,9 @@ function Footer() {
         </div>
         <div className="row">
             <h4>Rechtliches</h4>
-            <p>Nutzungsbedingungen</p>
-            <p>Datenschutzrichtlinien</p>
-            <p>Impressum</p>
+            <p onClick={() => {window.open(TERMS_LINK, "_blank")}}>Nutzungsbedingungen</p>
+            <p onClick={() => {window.open(PRIVACY_LINK, "_blank")}}>Datenschutzrichtlinien</p>
+            <p onClick={() => {window.open(IMPRINT_LINK, "_blank")}}>Impressum</p>
         </div>
         <div className="row last">
             <h4>cuodex.net 2023</h4>

@@ -2,5 +2,14 @@
     header {
         --padding-inline: 30px !important;
     }
+    header ul {
+        width: 20vw !important;
+    }
+    .home-img h1:not(.phone-text) {
+        display: none;
+    }
+    .home-img h1#phone-text {
+        display: block;
+    }
     
 }

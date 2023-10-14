@@ -7,7 +7,7 @@
     .box-space.three .box {
         width: 100%;
     }
-    .box-space.three .box .inner-box {
+    .box-space.three .box .inner-box, #philosophy .box-space .box .inner-box {
         height: auto;
     }
     .box-space.three.img .box .inner-box {

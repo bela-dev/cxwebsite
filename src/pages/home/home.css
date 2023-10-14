@@ -4,6 +4,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    padding-top: 120px;
 }
 
 .home-img h1 {
@@ -11,7 +12,6 @@
     color: var(--white);
     text-transform: uppercase;
     font-weight: 800;
-    padding-top: 120px;
     font-size: 48px;
 }
 
@@ -27,4 +27,19 @@
 .home-img button:hover {
     width: 160px;
     margin-left: calc(50% - 80px);
+}
+
+#philosophy .box .inner-box {
+    height: 220px;
+}
+
+.home-img #phone-text {
+    display: none;
+}
+
+.home-img #phone-text a {
+    float: left;
+    width: 100%;
+    transition: all .3s ease;
+    line-height: 50px;
 }

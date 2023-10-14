@@ -20,11 +20,16 @@ import "./home.css";
 import { getLang } from "../../utils/languageUtils";
 import SubPage from "../../components/subPage";
 import CodeTagIcon from "../../assets/icons/codetag";
+import { act } from "react-dom/test-utils";
 
 function Home() {
 
+    console.log(passxTitleImg);
+
+
     return <SubPage id="home" homeImg={backgroundMountain} title={<>
         <h1>CuodeX - Simple, secure & free</h1>
+        <h1 id="phone-text"><a>Simple</a><a>Secure</a><a>Free</a></h1>
         <button className="button-1" onClick={() => {window.scrollBy(0, 500);console.log("fasd")}}><a>Discover</a></button>
     </>}>
         
@@ -54,17 +59,25 @@ function Home() {
 
         <section id="projects">
             <h1>Projekte</h1>
-            <div className="box-space two">
+            <div className="box-space two only-img">
                 <div className="box">
                     <h2>Passx</h2>
-                    <div className="inner-box">
-                        <img src={passxTitleImg}/>
+                    <div className="inner-box img">
+                        <div className="img-box">
+                            <div className="img" style={{
+                                backgroundImage: "url(" + passxTitleImg + ")"
+                            }}/>
+                        </div>
                     </div>
                 </div>
                 <div className="box">
                     <h2>Limeboard</h2>
-                    <div className="inner-box">
-                        <img src={comingSoonTitleImg}/>
+                    <div className="inner-box img">
+                        <div className="img-box">
+                            <div className="img" style={{
+                                backgroundImage: "url(" + comingSoonTitleImg + ")"
+                            }}/>
+                        </div>
                     </div>
                 </div>
             </div>
