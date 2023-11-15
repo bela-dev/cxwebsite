@@ -1,6 +1,11 @@
 import de from "../assets/lang/de.json";
 import en from "../assets/lang/en.json";
 
+function langExists(key) {
+    console.log(getLang(key));
+    return getLang(key) !== undefined;
+}
+
 function getLang(key) {
     var lang = en;
     var userLang = navigator.language || navigator.userLanguage; 
@@ -22,4 +27,4 @@ function getLang(key) {
     return cjson;
 }
 
-export {getLang}
+export {getLang, langExists}

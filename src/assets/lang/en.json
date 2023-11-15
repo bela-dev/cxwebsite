@@ -89,5 +89,11 @@
             "email": "Email for further questions",
             "desc": "Briefly describe the bug you found "
         }
+    },
+    "error": {
+        "404": {
+            "title": "Page not found",
+            "desc": "It seems like the page you tried to enter doesn't exist. Please check your link and try again. Feel free to contact us if it still doesn't work"
+        }
     }
 }

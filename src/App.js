@@ -17,6 +17,7 @@ import Contact from "./pages/contact/contact";
 import Home from "./pages/home/home";
 import PassX from "./pages/passx/passx";
 import ReportBug from "./pages/reportBug/reportBug";
+import ErrorPage from "./pages/error/error";
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
                 //*<Route path="/limeboard" element={<Limeboard/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/report-bug" element={<ReportBug/>}/>
+                <Route path="/error/:id" element={<ErrorPage/>}/>
+                <Route path="*" element={<Navigate to={"error/404"}/>} />
               </Routes>
           </BrowserRouter>
       </>

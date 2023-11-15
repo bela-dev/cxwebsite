@@ -3,6 +3,9 @@
         width: 80%;
         margin-inline: 10%;
     }
+    #error .animation {
+        width: 80% !important;
+    }
     footer {
         padding-inline: 3% !important;
     }

@@ -12,8 +12,8 @@ function DefaultWrapper(props) {
     return <div id={props.id} className="wrapper">
         
         <Loader/>
-        <Header/>
-        <div className="header-placeholder"/>
+        {props.noheader ? <></> : <><Header/>
+        <div className="header-placeholder"/></>}
         {props.children}
         <Footer/>
     </div>;

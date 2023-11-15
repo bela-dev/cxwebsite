@@ -97,7 +97,7 @@ function Header() {
 
     return <header ref={headerEl} id="header" className={mobileActive ? "active" : ""}>
          <div className="logo">
-            <LogoIcon/>
+            <LogoIcon onClick={() => {headerNavigate("/home");}}/>
             <span>Cuodex</span>
          </div>
          <div className="burger" onClick={() => {setMobileActive(true);}} ref={burgerEl}>

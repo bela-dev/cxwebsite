@@ -5,10 +5,10 @@
     header ul {
         width: 20vw !important;
     }
-    .home-img h1:not(.phone-text) {
+    #home h1:not(.phone-text) {
         display: none;
     }
-    .home-img h1#phone-text {
+    #home h1#phone-text {
         display: block;
     }
     

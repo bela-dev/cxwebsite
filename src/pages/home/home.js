@@ -30,7 +30,7 @@ function Home() {
     return <SubPage id="home" homeImg={backgroundMountain} title={<>
         <h1>CuodeX - Simple, secure & free</h1>
         <h1 id="phone-text"><a>Simple</a><a>Secure</a><a>Free</a></h1>
-        <button className="button-1" onClick={() => {window.scrollBy(0, 500);console.log("fasd")}}><a>Discover</a></button>
+        <button className="button-1" onClick={() => {window.scrollBy(0, 500);}}><a>Discover</a></button>
     </>}>
         
 
@@ -60,7 +60,7 @@ function Home() {
         <section id="projects">
             <h1>Projekte</h1>
             <div className="box-space two only-img">
-                <div className="box">
+                <div className="box" onClick={() => {window.open("/passx", "_self");}}>
                     <h2>Passx</h2>
                     <div className="inner-box img">
                         <div className="img-box">

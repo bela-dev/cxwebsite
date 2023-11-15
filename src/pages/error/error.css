@@ -1,0 +1,97 @@
+#error {
+    text-align: center;
+    height: calc(100vh - 150px - 160px);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#error h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#error .animation {
+    height: 300px;
+    width: 60%;
+    margin-block: 30px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#error .animation .plane svg {
+    height: 100px;
+}
+
+#error .animation .plane {
+    height: 100px;
+    margin-block: 100px;
+    position: absolute;
+    margin-inline: calc(40% - 50px);
+    z-index: 5;
+    animation: planeAnimation 10s infinite;
+    animation-timing-function: linear;
+}
+
+#error .button-1 {
+    margin-top: 400px;
+    color: var(--mid-grey);
+    border-color: var(--mid-grey);
+}
+
+@keyframes planeAnimation {
+    0% {margin-top: 100px}
+    6% {margin-top: 95px}
+    13% {margin-top: 95px}
+    20% {margin-top: 110px}
+    26% {margin-top: 97px}
+    32% {margin-top: 97px}
+    40% {margin-top: 105px}
+    50% {margin-top: 87px}
+    55% {margin-top: 101px}
+    65% {margin-top: 101px}
+    70% {margin-top: 110px}
+    80% {margin-top: 99px}
+    90% {margin-top: 90px}
+    100% {margin-top: 100px}
+}
+
+#error .animation .cloud-layer {
+    position: absolute;
+    margin-left: 0;
+    animation: cloudLayerAnimation 15s infinite;
+    animation-timing-function: linear;
+}
+
+#error .animation .cloud-layer.top {
+    z-index: 6;
+}
+
+#error .animation .cloud-layer.first {
+    animation-delay: -7.5s;
+}
+
+@keyframes cloudLayerAnimation {
+    from {margin-left: -150%}
+    to {margin-left: 100%}
+}
+
+#error .animation .cloud {
+    position: absolute;
+}
+
+#error .animation .cloud.animated {
+    
+    animation: cloudAnimation 10s infinite reverse;
+    animation-timing-function: linear;
+    transition: margin .3s;
+}
+
+@keyframes cloudAnimation {
+    from {margin-left: 130%; margin-top: random(10) + "px"}
+    to {margin-left: -30%}
+}
+
+#error-wrapper footer {
+    margin-top: 50px;
+}

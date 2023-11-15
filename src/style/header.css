@@ -30,6 +30,7 @@ header .logo svg {
     height: 70px;
     float: left;
     transition: transform .4s ease;
+    cursor: pointer;
 }
 
 header .logo span {
